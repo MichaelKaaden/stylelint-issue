@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-a11y"
+  ],
+  "rules": {
+    "a11y/media-prefers-reduced-motion": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ]
+  }
+}

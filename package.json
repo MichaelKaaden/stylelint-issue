@@ -4,8 +4,17 @@
   "description": "Reproduce a stylelint error",
   "main": "index.js",
   "scripts": {
+    "prettify:md": "prettier --print-width 80 --write \"*.md\"",
+    "lint": "stylelint --fix \"*.scss\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kaaden <github@kaaden.net>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.0",
+    "stylelint-a11y": "^1.2.2",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.12.1"
+  }
 }
